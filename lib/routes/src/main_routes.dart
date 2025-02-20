@@ -2,7 +2,6 @@ import 'package:core/core.dart';
 import 'package:pokemon/main/main_page.dart';
 
 import 'home_routes.dart';
-import 'profile_routes.dart';
 
 List<RouteBase> mainRoutes = [
   StatefulShellRoute.indexedStack(
@@ -10,7 +9,6 @@ List<RouteBase> mainRoutes = [
         MainPage(navigationShell: navigationShell),
     branches: [
       ...homeRoutes,
-      ...profileRoutes,
     ],
   ),
 ];

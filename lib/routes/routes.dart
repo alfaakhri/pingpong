@@ -1,6 +1,5 @@
 import 'package:core/core.dart';
 import 'package:flutter/foundation.dart';
-import 'package:pokemon/routes/src/auth_routes.dart';
 import 'package:pokemon/routes/src/main_routes.dart';
 import 'package:pokemon/routes/src/splash_routes.dart';
 
@@ -11,7 +10,6 @@ abstract class Routes {
     initialLocation: ConstantRoutes.splash,
     routes: [
       ...splashRoutes,
-      ...authRoutes,
       ...mainRoutes,
     ],
   );

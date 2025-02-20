@@ -11,18 +11,8 @@ dependencies:
     path: './core'
   splash:
     path: './features/splash'
-  onboarding:
-    path: './features/onboarding'
-  auth:
-    path: './features/auth'
   home:
     path: './features/home'
-  news:
-    path: './features/news'
-  profile:
-    path: './features/profile'
-  selling:
-    path: './features/selling'
 dev_dependencies:
   dev_dependency_manager:
     path: './core/packages/dev_dependency_manager'
@@ -33,6 +23,8 @@ flutter:
   uses-material-design: true
   assets:
     - 'integration_test/ndjson/'
+
+
 
 
 
