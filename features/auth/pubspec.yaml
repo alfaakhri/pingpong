@@ -1,0 +1,23 @@
+name: auth
+description: A new Flutter package project.
+version: 0.0.1
+
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../../core
+
+dev_dependencies:
+  dev_dependency_manager:
+    path: ../../core/packages/dev_dependency_manager
+
+flutter:
+  uses-material-design: true

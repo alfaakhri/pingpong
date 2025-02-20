@@ -1,0 +1,45 @@
+name: dependency_manager
+description: All dependency package of project here.
+version: 0.0.1
+
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Google Font
+  google_fonts: ^6.2.1
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # Service Locator
+  get_it: ^7.7.0
+
+  # Storage
+  flutter_secure_storage: ^9.2.2
+
+  # Component
+  skeletonizer: ^1.4.2
+
+  # Utils
+  equatable: ^2.0.5
+  collection: ^1.18.0
+
+  # Firebase
+  # firebase_core: ^2.25.4
+  # firebase_analytics: ^10.8.5
+  # firebase_crashlytics: ^3.4.14
+  # firebase_remote_config: ^4.3.13
+
+dev_dependencies:
+  dev_dependency_manager:
+    path: ../dev_dependency_manager
+
+flutter:
+  uses-material-design: true

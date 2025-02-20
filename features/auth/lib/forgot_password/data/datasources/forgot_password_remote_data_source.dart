@@ -1,0 +1,35 @@
+import 'package:core/core.dart';
+
+import '../models/body/forgot_password_body.dart';
+import '../models/response/forgot_password_response.dart';
+
+abstract class ForgotPasswordRemoteDataSource {
+  Future<ForgotPasswordResponse> forgotPassword(
+    ForgotPasswordBody body, {
+    Map<String, String>? headers,
+  });
+}
+
+class ForgotPasswordRemoteDataSourceImpl
+    implements ForgotPasswordRemoteDataSource {
+  ForgotPasswordRemoteDataSourceImpl({required this.http});
+
+  final MorphemeHttp http;
+
+  @override
+  Future<ForgotPasswordResponse> forgotPassword(
+    ForgotPasswordBody body, {
+    Map<String, String>? headers,
+  }) async {
+    final response = await http.get(
+      PokemonEndpoints.forgotPassword,
+      body: body.toMap(),
+      headers: headers,
+      cacheStrategy: JustCacheStrategy(
+        ttlValue: const Duration(minutes: 120),
+        keepExpiredCache: true,
+      ),
+    );
+    return ForgotPasswordResponse.fromJson(response.body);
+  }
+}
