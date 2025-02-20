@@ -1,4 +1,4 @@
-app_identifier("design.morpheme") # The bundle identifier of your app
+app_identifier("pokemon.apps") # The bundle identifier of your app
 apple_id("ios@morpheme.design") # Your Apple email address
 
 itc_team_id("YOUR TEAM ID") # App Store Connect Team ID

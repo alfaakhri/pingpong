@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "main": "index.js",
-  "author": "Morpheme",
+  "author": "Pokemon Apps",
   "license": "ISC",
   "devDependencies": {
     "cucumber-html-reporter": "^5.5.1"

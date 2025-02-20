@@ -1,4 +1,4 @@
-package design.morpheme
+package pokemon.apps
 
 import io.flutter.embedding.android.FlutterActivity
 

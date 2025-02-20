@@ -1,4 +1,4 @@
-# Morpheme
+# Pokemon Apps
 
 The Flutter starter kit utilizes a modular system for easier collaboration and maintenance. Assisted by the Morpheme CLI automation, it reduces the boilerplate from scratch.
 

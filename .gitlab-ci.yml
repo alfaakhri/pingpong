@@ -11,7 +11,7 @@ variables:
   PATH_EXPORT_OPTIONS_PLISTS: "ios/ExportOptions.plist"
   PATH_APP_STORE_JSON: "ios/fastlane/AppStore.json"
   # NOTIFICATION TO SLACK
-  APP_NAME: "Morpheme"
+  APP_NAME: "Pokemon Apps"
   CHANNEL_SLACK: "#flutter-deployment"
   MENTION_SLACK: "<!channel>"
   # FLUTTER SDK
